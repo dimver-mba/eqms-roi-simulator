@@ -31,46 +31,46 @@ PROCESS_METADATA = [
     # Module, Event Name, Annual Vol, Leg Hrs, Dig Hrs, Leg Days, Dig Days, Complexity
 
     # --- TRAINING ---
-    ("Training", "Training Assignment (Read&Und)", 5000, 0.5, 0.1, 5.0, 1.0, 1.0),
-    ("Training", "OJT Assessment / Qual", 1000, 2.5, 1.0, 10.0, 3.0, 2.0),
-    ("Training", "Ext. Training Verification", 500, 1.0, 0.3, 7.0, 2.0, 1.0),
+    ("Training", "Training Assignment (Read&Und)", 1500, 0.5, 0.1, 5.0, 1.0, 1.0),
+    ("Training", "OJT Assessment / Qual", 200, 2.5, 1.0, 10.0, 3.0, 2.0),
+    ("Training", "Ext. Training Verification", 100, 1.0, 0.3, 7.0, 2.0, 1.0),
 
     # --- DOCUMENTS ---
-    ("Documents", "SOP Revision (Minor/Admin)", 300, 6.0, 3.0, 20.0, 10.0, 2.0),
-    ("Documents", "SOP Creation / Major Rev", 100, 15.0, 8.0, 45.0, 20.0, 3.5),
-    ("Documents", "SOP Periodic Review", 100, 8.0, 4.0, 30.0, 15.0, 2.5),
+    ("Documents", "SOP Revision (Minor/Admin)", 50, 6.0, 3.0, 20.0, 10.0, 2.0),
+    ("Documents", "SOP Creation / Major Rev", 30, 15.0, 8.0, 45.0, 20.0, 3.5),
+    ("Documents", "SOP Periodic Review", 80, 8.0, 4.0, 30.0, 15.0, 2.5),
     ("Documents", "Work Instruction (New/Rev)", 500, 4.0, 2.0, 15.0, 5.0, 1.5),
     ("Documents", "Form/Logbook Issuance & Rev", 1000, 0.5, 0.1, 2.0, 0.5, 1.0),
 
     # --- DEVIATIONS ---
-    ("Deviations", "Deviation (Minor / Event)", 1500, 8.0, 5.0, 25.0, 15.0, 2.0),
-    ("Deviations", "Deviation (Major / Non-Conf)", 400, 20.0, 12.0, 45.0, 25.0, 3.5),
-    ("Deviations", "Deviation (Critical)", 50, 40.0, 25.0, 60.0, 30.0, 5.0),
+    ("Deviations", "Deviation (Minor / Event)", 500, 8.0, 5.0, 25.0, 15.0, 2.0),
+    ("Deviations", "Deviation (Major / Non-Conf)", 50, 20.0, 12.0, 45.0, 25.0, 3.5),
+    ("Deviations", "Deviation (Critical)", 10, 40.0, 25.0, 60.0, 30.0, 5.0),
 
     # --- OOS / OOT ---
     ("OOS/OOT", "OOT / Lab Error (Minor)", 500, 10.0, 6.0, 15.0, 5.0, 2.0),
-    ("OOS/OOT", "OOS Confirmed (Major)", 200, 25.0, 15.0, 30.0, 15.0, 4.0),
-    ("OOS/OOT", "OOS Critical / Field Alert", 20, 80.0, 50.0, 45.0, 20.0, 5.0),
+    ("OOS/OOT", "OOS Confirmed (Major)", 100, 25.0, 15.0, 30.0, 15.0, 4.0),
+    ("OOS/OOT", "OOS Critical / Field Alert", 10, 80.0, 50.0, 45.0, 20.0, 5.0),
 
     # --- CAPA ---
-    ("CAPA", "CAPA Plan & Execution", 400, 15.0, 10.0, 60.0, 40.0, 3.5),
-    ("CAPA", "Effectiveness Check (EC)", 300, 8.0, 4.0, 90.0, 45.0, 3.0),
+    ("CAPA", "CAPA Plan & Execution", 40, 15.0, 10.0, 60.0, 40.0, 3.5),
+    ("CAPA", "Effectiveness Check (EC)", 30, 8.0, 4.0, 90.0, 45.0, 3.0),
 
     # --- CHANGE CONTROL ---
-    ("Change Ctrl", "CC (Like-for-Like / Admin)", 500, 6.0, 3.0, 15.0, 5.0, 2.0),
-    ("Change Ctrl", "CC (Minor / Process Adj)", 300, 12.0, 6.0, 30.0, 15.0, 3.0),
-    ("Change Ctrl", "CC (Major / Equipment)", 150, 30.0, 18.0, 90.0, 45.0, 4.5),
-    ("Change Ctrl", "CC (Emergency / Temporary)", 50, 20.0, 12.0, 5.0, 2.0, 4.5),
+    ("Change Ctrl", "CC (Like-for-Like / Admin)", 50, 6.0, 3.0, 15.0, 5.0, 2.0),
+    ("Change Ctrl", "CC (Minor / Process Adj)", 30, 12.0, 6.0, 30.0, 15.0, 3.0),
+    ("Change Ctrl", "CC (Major / Equipment)", 15, 30.0, 18.0, 90.0, 45.0, 4.5),
+    ("Change Ctrl", "CC (Emergency / Temporary)", 25, 20.0, 12.0, 5.0, 2.0, 4.5),
 
     # --- COMPLAINTS ---
-    ("Complaints", "Complaint (Non-Medical)", 600, 12.0, 7.0, 30.0, 15.0, 3.0),
-    ("Complaints", "Complaint (Medical / AE)", 50, 25.0, 15.0, 15.0, 5.0, 5.0),
+    ("Complaints", "Complaint (Non-Medical)", 60, 12.0, 7.0, 30.0, 15.0, 3.0),
+    ("Complaints", "Complaint (Medical / AE)", 5, 25.0, 15.0, 15.0, 5.0, 5.0),
 
     # --- AUDITS ---
-    ("Audits", "Internal Audit (Self-Insp)", 100, 40.0, 25.0, 30.0, 15.0, 3.5),
-    ("Audits", "Supplier Audit (Desk/Remote)", 200, 10.0, 5.0, 30.0, 10.0, 2.5),
-    ("Audits", "Supplier Audit (On-Site)", 50, 50.0, 30.0, 45.0, 20.0, 4.0),
-    ("Audits", "Regulatory Insp. Prep", 10, 200.0, 120.0, 15.0, 10.0, 5.0),
+    ("Audits", "Internal Audit (Self-Insp)", 4, 40.0, 25.0, 30.0, 15.0, 3.5),
+    ("Audits", "Supplier Audit (Desk/Remote)", 20, 10.0, 5.0, 30.0, 10.0, 2.5),
+    ("Audits", "Supplier Audit (On-Site)", 30, 50.0, 30.0, 45.0, 20.0, 4.0),
+    ("Audits", "Regulatory Insp. Prep", 5, 200.0, 120.0, 15.0, 10.0, 5.0),
 ]
 
 # Initialize DataFrame
@@ -230,7 +230,7 @@ st.set_page_config(page_title="Quality ROI Calculator", layout="wide", initial_s
 if 'simulation_run' not in st.session_state:
     st.session_state['simulation_run'] = False
 
-st.title("💰 Cloud eQMS ROI Simulator")
+st.title("Cloud eQMS ROI Simulator")
 st.caption("Strategic Decision Support Tool | Powered by Monte Carlo Simulation | UNIPI MBA TQM Thesis | Author:D.Vergis Supervisor:G.Bohoris")
 
 # --- SIDEBAR ---
@@ -260,7 +260,7 @@ with st.sidebar:
 
 # --- MAIN INPUT ---
 st.header("5. Enterprise QMS Configuration")
-st.markdown("_Baseline reflects a full-scale pharma quality pyramid (Policies → SOPs → WIs → Forms)._")
+st.markdown("_SME staging table for a full-scale pharma eQMS rollout-configurable_")
 
 editable_df = st.data_editor(
     DEFAULT_DF,
