@@ -85,8 +85,17 @@ DEFAULT_DF = pd.DataFrame(PROCESS_METADATA, columns=[
 # =======================================================
 @st.cache_data
 def run_simulation(hourly_rate, n_events, process_df, penalties, currency_symbol, savings_factor):
+    
+    # --- FIX START: Reset Index to handle deletions ---
+    process_df = process_df.reset_index(drop=True)
+    # --- FIX END ---
+
     # Weights based on Annual Volume
     total_vol = process_df['Annual_Volume'].sum()
+    
+    if total_vol == 0:
+        return pd.DataFrame(), None, 0, 0, None, None, None, 0
+        
     weights = process_df['Annual_Volume'] / total_vol
 
     data_rows = []
