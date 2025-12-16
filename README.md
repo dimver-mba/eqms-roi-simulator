@@ -1,5 +1,5 @@
 Cloud eQMS ROI Simulator 📊
-Thesis Artifact: Digitalization of Quality Processes in the Pharmaceutical Industry
+Thesis Artifact: Digital Transformation in Pharma: A Strategic Framework for Cloud eQMS Validation and ROI Analysis
 🎓 Academic Context
 Institution: University of Piraeus (UNIPI)
 Program: MBA in Total Quality Management (TQM)
