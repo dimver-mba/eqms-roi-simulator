@@ -1,8 +1,7 @@
 """
 Cloud eQMS ROI Simulator - Monte Carlo Engine (MBA TQM Thesis , University of Piraeus)
 Author: Dimitrios Vergis
-Thesis: Digitalization of Quality Processes in the Pharmaceutical Industry
-through eQMS
+Thesis: Digital Transformation in Pharma: A Strategic Framework for Cloud eQMS Validation and ROI Analysis
 Description:
     Enterprise simulation with configurable inputs to adopt to different business scenarios and regions based on complexity driven logic.
     Features HC3 robust regression, Module-based analytics, and visualization.
